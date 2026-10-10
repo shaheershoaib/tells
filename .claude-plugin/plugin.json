@@ -1,0 +1,12 @@
+{
+  "name": "tells",
+  "version": "0.1.0",
+  "description": "Measures how often your replies carried an AI tell (em dashes, teaser setups, \"load-bearing\", praising the question), per week and per model, from the transcripts Claude Code already saved. Then keeps those phrases out: a one-line rule at session start, a note to the agent after any reply that slips, and an opt-in rewrite at the end of a turn.",
+  "author": {
+    "name": "Shaheer Shoaib"
+  },
+  "homepage": "https://github.com/shaheershoaib/tells",
+  "repository": "https://github.com/shaheershoaib/tells",
+  "license": "Apache-2.0",
+  "keywords": ["writing", "style", "ai-tells", "claudeisms", "hooks"]
+}

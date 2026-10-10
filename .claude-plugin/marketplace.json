@@ -1,0 +1,16 @@
+{
+  "name": "tells",
+  "owner": {
+    "name": "Shaheer Shoaib"
+  },
+  "metadata": {
+    "description": "tells, a Claude Code plugin by Shaheer Shoaib: measures how often your agent's replies read as AI-written, per week and per model, from your own transcripts, then keeps those phrases out."
+  },
+  "plugins": [
+    {
+      "name": "tells",
+      "source": "./",
+      "description": "Measures your AI-tell rate per week and per model from saved transcripts, then keeps the tells out of new replies."
+    }
+  ]
+}
