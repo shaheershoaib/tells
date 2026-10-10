@@ -29,15 +29,23 @@ replies carrying each tell:
   generic AI filler      2
 ```
 
-That is the author's own Claude Code history from August to October 2026. A tell is a phrase or
-habit a reader spots before weighing what the text says: an em dash every other sentence,
-"Here's where it gets interesting", "load-bearing", "Great question". The list starts from the
-crowd-sourced catalogue at [claudeisms.org](https://claudeisms.org).
+That is my own Claude Code history from August to October 2026. A tell is a phrase or habit a
+reader spots before weighing what the text says: an em dash every other sentence, "Here's where
+it gets interesting", "load-bearing", "Great question". The list starts from the crowd-sourced
+catalogue at [claudeisms.org](https://claudeisms.org).
 
-The model made the biggest difference. Opus 4.8 and Opus 5 put a tell in three replies out of
-four or more. Opus 5.5, used by the same person on the same kind of work, did it in about 1
-reply in 24, and the weekly rate fell from 69% to 4% the week the author switched to it.
-Measure before you decide how much enforcement you need.
+For me the model made the biggest difference. Opus 4.8 and Opus 5 put a tell in three replies
+out of four or more. Opus 5.5, on the same kind of work, did it in about 1 reply in 24, and my
+weekly rate fell from 69% to 4% the week I switched to it. Measure before you decide how much
+enforcement you need.
+
+## Why I built this
+
+I wanted Claude to stop writing Claudeisms in the replies and drafts it writes for me, so I
+started with a writing rule and a hook that sent back any reply carrying one. Then I ran the
+scanner over my saved transcripts and found the current model had already brought the rate down
+to about 4%. Blocking every slip at that rate mostly meant reading replies twice, so blocking
+became opt-in and the measurement became the main feature.
 
 ## Measure yours
 
